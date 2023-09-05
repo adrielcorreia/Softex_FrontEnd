@@ -22,3 +22,11 @@ p {
 .espaco-paragrafo {
     margin-left: 35px;
 }
+
+a {
+    text-decoration: none;
+}
+
+span {
+    background-color: rgb(255, 89, 0);
+}
