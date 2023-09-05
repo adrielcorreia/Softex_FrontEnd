@@ -1,0 +1,9 @@
+4 tipos de estruturas condicionais:
+
+simples: "se" e "fimse"
+
+composta: "se", "senão" e "fimse"
+
+encadeada: "se" e "senão", finalizando com "fimse" para cada "se"
+ 
+múltipla escolha: "escolha", "caso" e "fimescolha"

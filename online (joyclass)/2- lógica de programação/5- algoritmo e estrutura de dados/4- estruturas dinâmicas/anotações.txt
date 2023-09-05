@@ -1,0 +1,42 @@
+O nó é um elemento individual em uma árvore. Cada nó contém um valor (dados) e uma referência para seus nós filhos.
+
+Raiz (root): É o nó inicial da árvore, ou seja, o ponto de partida para percorrer toda a estrutura.
+
+Nó filho (child): É o nó que está diretamente abaixo de outro na hierarquia.
+
+Nó pai (parent): É o nó que está diretamente acima de outro na hierarquia.
+
+Nó folha (leaf): É o nó que não possui nós filhos, ou seja, está na extremidade da árvore.
+
+Nível (level): É o número de arestas entre o nó e a raiz. O nível da raiz é 0 e a aresta é a ligação de um nó com outro.
+
+Altura (height): É o número de níveis em uma árvore. Caso uma árvore tenha apenas um nó, ou seja, o nó raiz, sua altura é zero.
+
+------------------------------------------------------------------------------------------------------------------------------
+USO EM PROBLEMAS ESPECÍFICOS:
+	As árvores são utilizadas para resolver diversos 
+	problemas na ciência da computação e engenharia de software.
+
+------------------------------------------------------------------------------------------------------------------------------
+ESTRUTURA DE DADOS AVANÇADA:
+	As árvores são a base para muitas estruturas de dados 
+	importantes, como árvores de busca binária, árvores de segmentos, 
+	árvores AVL, árvores B, entre outras.
+
+PESQUISAS EFICIENTES:
+	as árvores de busca binária são, especialmente, 
+	úteis para pesquisas em grandes conjuntos de dados ordenados.
+
+JOGOS E INTELIGÊNCIA ARTIFICIAL:
+	as árvores de jogos são usadas para analisar as 
+	várias opções e determinar a melhor jogada possível.
+
+------------------------------------------------------------------------------------------------------------------------------
+CONCLUSÃO: 
+	As árvores na programação são estruturas hierárquicas 
+	que nos possibilitam organizar dados de forma inteligente 
+	e eficiente, trazendo elegância e agilidade para nossos algoritmos. 
+	Não deixe de continuar praticando. Bons estudos!
+
+------------------------------------------------------------------------------------------------------------------------------
+A classe nó define a menor estrutura de uma lista ligada, que é o nó. Ela possui um construtor e dois atributos (Nome e próximo). Nome pode ser passado no construtor do nó durante a instância e deve receber uma string contendo o nome. Já o atributo próximo deve receber um outro objeto do tipo nó.

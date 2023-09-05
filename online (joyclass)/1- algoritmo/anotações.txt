@@ -1,0 +1,36 @@
+Pseudocódigo: 
+
+é uma forma de representação textual 
+da lógica de programação usando uma 
+linguagem próxima ao idioma humano. É 
+uma abordagem informal que combina 
+elementos da linguagem de programação 
+comum com explicações 
+em linguagem natural. 
+
+
+Fluxograma: 
+
+é uma representação gráfica 
+da lógica de um programa, usando símbolos 
+e setas para mostrar a sequência de operações 
+e decisões. É uma forma visual de representar 
+o fluxo de controle do programa, destacando 
+as etapas do processo e como as decisões são tomadas.
+
+
+Linguagem de programação:
+
+é uma ferramenta usada 
+para criar um programa, pois é ela que implementa 
+o algoritmo. Atualmente, existem diversos tipos, 
+com diferentes padrões e particularidades.
+
+Ao contrário das linguagens compiladas, 
+em que o código-fonte é traduzido para 
+código de máquina antes da execução, a 
+interpretação ocorre linha por linha 
+durante a execução do programa. Ela é 
+executada no lado do cliente, ou seja, 
+no navegador, permitindo que os desenvolvedores 
+adicionem interatividade e funcionalidades às páginas web.

@@ -1,0 +1,19 @@
+História do CSS: 
+
+Para resolver esses problemas, Hakon Wium que na 
+época trabalhava com o Tim Berners, resolveu criar 
+uma forma mais fácil de estilizar os sites e melhorar 
+sua visualização.
+	Em 1994, na mesma época em que eles trabalhavam 
+em um navegador chamado Argo, surge a CSS.
+--------------------------------------------------------------
+No ano seguinte, eles apresentaram a World Wide Web Consortium 
+(W3C) e o projeto foi aprovado com a criação de uma equipe de trabalho.
+	Em 1996, a primeira versão da CSS foi introduzida. Dois anos 
+depois foi lançada a segunda e, logo após, a terceira, que é a mais atual. 
+Essa está em constante desenvolvimento, ou seja, ainda há adição de novas 
+características.
+--------------------------------------------------------------
+A CSS permite aplicar estilos seletivos. Portanto, vamos aprender como
+aplicá-los nos elementos HTML.
+--------------------------------------------------------------
