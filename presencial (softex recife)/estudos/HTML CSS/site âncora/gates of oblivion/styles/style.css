@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: inherit;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'daedra';
+    src: url('../assets/fonts/daedric/daedra.woff');
+}
+
+title {
+    display: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    padding: 20px 50px;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 1000;
+    background-color: rgba(15, 0, 0, 25%);
+    backdrop-filter: blur(15px);
+    box-shadow: 0px 0px 5px 5px rgba(15, 0, 0, 75%);
+}
+
+.header-left-info {
+    text-align: center;
+}
+
+#daedric-alphabet {
+    font-family: 'daedra';
+    height: 10px;
+    letter-spacing: 10px;
+    color: rgb(255, 145, 0);
+    padding-left: 20px;
+    resize: none;
+    transition: .5s;
+}
+
+#daedric-alphabet:hover {
+    color: rgb(255, 60, 0);
+}
+
+nav {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+nav > ul {
+    height: 20px;
+    margin: 10px;
+}
+
+.info-right-links {
+    padding: 0px 35px;
+    text-transform: lowercase;
+    font-size: 20px;
+    color: rgb(255, 145, 0);
+    transition: .5s ease;
+}
+
+.info-right-links:hover {
+    color: rgb(255, 60, 0);
+}
+
+/* SECTION HOME */
+
+body {
+    font-family: 'Inconsolata', serif;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr 305px;
+    position: sticky;
+}
+
+main > .home {
+    background-color: rgb(15, 0, 0);
+    height: 100vh;
+}
+
+main > .home > .big-text-and-photo {
+    padding-top: 250px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+main > .home > .big-text-and-photo > .gates-of-oblivion-text  {
+    flex-direction: column;
+    width: 650px;
+    font-size: 100px;
+    background: -webkit-linear-gradient(#ff9100, #ff3200);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+main > .home > .big-text-and-photo > img {
+    padding-left: 100px;
+    width: 100%;
+    transform: translateY(-100px);
+}
+
+#goo-p {
+    color: rgb(225, 125, 0);
+    font-size: 24px;
+}
+
+#cadwell {
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+/* SECTION ABOUT */
+
+.about {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    height: 115vh;
+    background: linear-gradient(0deg, rgb(25, 0, 25) 80%, rgb(20, 0, 5) 95%, rgba(15,0,0,1) 100%);
+}
+
+#about-text {
+    transform: translateY(200px);
+    font-size: 125px;
+    height: 200px;
+    background: -webkit-linear-gradient(#cc00ff, #1d002a);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: 10px;
+}
+
+.about-grid {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    height: 55vh;
+    transform: translateY(200px);
+}
+
+.about-grid > .about-grid-row {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid rgba(205, 0, 240, 100%);
+    border-radius: 5%;
+    width: 50vh;
+    padding: 25px;
+}
+
+.about-grid-text {
+    font-size: 22px;
+    color: #cc00ff;
+}
+
+#azura-star {
+    width: 215px;
+    height: 215px;
+}
+
+#oghma {
+    object-fit: cover;
+    width: 240px;
+    height: 240px;
+}
+
