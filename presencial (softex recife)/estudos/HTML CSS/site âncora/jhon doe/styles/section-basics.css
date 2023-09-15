@@ -1,0 +1,79 @@
+.section-about {
+    display: grid;
+    grid-template-columns: 10vw 1fr 1fr 10vw;
+    grid-template-rows: 1fr 70vh;
+}
+
+.sca-span {
+    font-size: 1.2rem;
+}
+
+.span-normal {
+    font-size: 1.12rem;
+    line-height: 1.75rem;
+}
+
+.section-apresentation {
+    display: flex;
+    flex-direction: column;
+    gap: 1.45rem;
+    padding: 7rem 0;
+    grid-column: 1/5;
+    width: 50%;
+    justify-self: center;
+    text-align: center;
+    align-items: center;
+}
+
+.section-title {
+    font-size: 2.5rem;
+}
+
+.spaces {
+    color: transparent;
+    width: 2.25rem;
+    height: 0.35rem;
+    border-radius: 1rem;
+}
+
+/*----------------purple---------------*/
+.sa-purple {
+    background: #be3ffe3e;
+}
+
+.st-purple {
+    color: #410041;
+}
+
+.sp-purple {
+    background: darkmagenta;
+}
+
+.sca-span-purple {
+    color: #bf3ffe;
+}
+
+.span-normal-purple {
+    color: #bf3ffe;
+}
+
+/*-----------------blue----------------*/
+.sa-blue {
+    background: rgba(13, 0, 52, 0.203);
+}
+
+.st-blue {
+    color: rgb(0, 0, 65);
+}
+
+.sp-blue {
+    background: darkblue;
+}
+
+.sca-span-blue {
+    color: rgba(0, 0, 86, 0.686);
+}
+
+.span-normal-blue {
+    color: rgb(0, 0, 65);
+}

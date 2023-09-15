@@ -17,14 +17,14 @@ body {
 
 header {
     width: 100vw;
-    background-color: white;
+    background: rgb(50, 0, 70);
     position: fixed;
     z-index: 1000;
-    
+    box-shadow: 0px 0px 15px 1px rgba(30, 0, 45, 0.5);
 }
 
 .header-content {
-    color: #333;
+    color: rgb(0, 0, 100);
     text-transform: uppercase;
     font-weight: 600;
     padding: 1.25rem;
@@ -43,6 +43,8 @@ header {
 }
 
 .header-logo-img {
+    object-fit: cover;
+    width: 3rem;
     height: 3rem;
     background: #0062b9;
     border-radius: 2rem;
@@ -56,12 +58,12 @@ header {
 }
 
 .nav-items {
-    color: #333;
+    color: darkorchid;
     transition: .5s;
 }
 
 .nav-items:hover {
-    color: #0062b9;
+    color: #ff56ff;
 }
 
 .section-home {
@@ -69,15 +71,15 @@ header {
     text-align: center;
     grid-template-columns: 3.5rem 1fr 3.5rem;
     grid-template-rows: 104.5vh 10vh;
-    background: linear-gradient(to right, rgba(0,98,185,0.8), rgba(0,98,185,0.8)), url("../assets/common-bg.svg");
+    background: linear-gradient(to right, rgba(0, 0, 50, 0.95), rgba(100, 0, 100, 0.8)), url("../assets/common-bg.svg");
 }
 
 .section-home-content {
     display: flex;
-    padding-top: 5rem;
+    padding-top: 5.5rem;
     flex-direction: column;
     letter-spacing: 3px;
-    color: white;
+    color: #cf6eff;
     width: 60%;
     align-self: center;
     justify-self: center;
@@ -99,16 +101,39 @@ header {
     justify-content: center;
     letter-spacing: 0.75px;
     transition: 0.25s;
+    margin: 0 18rem;
 }
 
-.btn-white {
-    background: white;
-    color: #333;
+.lightviolet {
+    background: #cf6eff;
+    color: #4e0075;
     font-weight: bolder;
     font-size: 1.2rem;
     padding: 0 5rem;
     border-radius: 0.5rem;
     box-shadow: 0 5px 15px 0 rgba(0,0,0,0.15);
+}
+
+.purple {
+    background: #6d1c76;
+    color: #f07fff;
+    font-weight: bolder;
+    padding: 0 3rem;
+    border-radius: 0.5rem;
+    width: 16%;
+    height: 3.3rem;
+    margin: 0;
+}
+
+.blue {
+    background: #1d0075;
+    color: white;
+    font-weight: bolder;
+    padding: 0 3rem;
+    border-radius: 0.5rem;
+    width: 16%;
+    height: 3.3rem;
+    margin: 0;
 }
 
 .btn-hover:hover { 
@@ -124,7 +149,8 @@ header {
 }
 
 .section-home-social {
-    border: 2px solid white;
+    border: 2px solid #ff56ff;
+    opacity: 50%;
     border-bottom: 0;
     display: flex;
     flex-direction: column;
@@ -134,7 +160,7 @@ header {
 
 .section-home-socials-icon {
     padding: 0.75rem 0;
-    border-bottom: 2px solid white;
+    border-bottom: 2px solid #ff56ff;
     transition: .5s;
 }
 
@@ -155,7 +181,7 @@ header {
     align-items: center;
     width: 2%;
     height: 65%;
-    border: 2px solid white;
+    border: 2px solid darkorchid;
     border-radius: 15px;
 }
 
@@ -168,7 +194,7 @@ header {
 #mouse-point {
     transform: translateY(-0.65rem);
     height: 12%;
-    background: white;
+    background: darkorchid;
     color: transparent;
     border-radius: 50%;
     animation: wheel 1.3s infinite;
