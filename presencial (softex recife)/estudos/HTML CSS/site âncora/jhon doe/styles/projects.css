@@ -1,5 +1,33 @@
 .section-projects {
     display: grid;
-    grid-template-columns: 10vw 1fr 1fr 10vw;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 10vw 1.5fr 1fr 10vw;
+    grid-template-rows: 50vh 1fr 1fr 1fr 7.5vh;
+    row-gap: 3rem;
+}
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    grid-column: 3/4;
+    padding-left: 2rem;
+}
+
+.project-notebook {
+    display: grid;
+    grid-template-columns: 60% 1fr;
+    grid-column: 2/4;
+    padding-bottom: 3.5rem;
+}
+
+.n1 {
+    grid-row: 2;
+}
+
+.n2 {
+    grid-row: 3;
+}
+
+.n3 {
+    grid-row: 4;
 }

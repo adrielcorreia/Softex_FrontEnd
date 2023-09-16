@@ -1,0 +1,72 @@
+.section-contact {
+    display: grid;
+    grid-template-columns: 10vw 1fr 10vw;
+    grid-template-rows: 50vh 1fr 15vh;
+    row-gap: 3rem;
+    background: linear-gradient(to right, rgba(0, 0, 50, 0.95), rgba(100, 0, 100, 0.8)), url("../assets/common-bg.svg");
+}
+
+form {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    background: linear-gradient(125deg, 
+    rgba(0, 0, 35, 0.5) 0%, 
+    rgba(0, 0, 50, 0.5) 10%, 
+    rgba(70,0,100, 0.65) 50%, 
+    rgba(200,0,200, 0.25) 100%);
+
+    grid-column: 2;
+    width: 55%;
+    border-radius: 0.5rem;
+    box-shadow: 0px 0px 5px 2px rgba(0, 0, 65, 0.25);
+}
+
+label {
+    font-size: 1.2rem;
+    padding-bottom: 1rem;
+    color: rgb(205,0,255);
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    column-gap: 2rem;
+}
+
+.textarea {
+    border: 2px solid rgba(45, 0, 45, 0.2);
+    border-radius: 0.25rem;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    background: rgba(0, 0, 59, 0.15);
+    color: rgb(156, 0, 195);
+}
+
+.input-name[contenteditable]:empty::before {
+    content: "Enter your name";
+    color: rgba(227, 113, 255, 0.25);
+}
+
+.input-email[contenteditable]:empty::before {
+    content: "Enter your email";
+    color: rgba(227, 113, 255, 0.25);
+}
+
+.input-message[contenteditable]:empty::before {
+    content: "Enter your message";
+    color: rgba(227, 113, 255, 0.25);
+}
+
+.textarea:focus {
+    outline: none;
+}
+
+::placeholder {
+    color: rgba(227, 113, 255, 0.25);
+}
+
+form > a {
+    align-self: center;
+}

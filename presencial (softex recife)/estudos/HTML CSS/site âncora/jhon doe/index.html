@@ -5,9 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dopefolio</title>
     <link rel="stylesheet" href="./styles/main.css">
-    <link rel="stylesheet" href="./styles/section-basics.css">
+    <link rel="stylesheet" href="./styles/home.css">
     <link rel="stylesheet" href="./styles/about.css">
     <link rel="stylesheet" href="./styles/projects.css">
+    <link rel="stylesheet" href="./styles/contact.css">
 </head>
 <body>
     <header>
@@ -81,7 +82,7 @@
 
             <div class="know-me-skills">
                 <div class="text-normal">
-                    <h2 class="h2-normal">Get to know me!</h2>
+                    <h2 class="h2-normal h2-purple">Get to know me!</h2>
                     <span class="span-normal span-normal-purple">
                         Hey! It's <strong>Adriel Correia</strong> and 
                         I'm a <strong>Frontend Web Developer</strong> located in Recife PE. 
@@ -99,7 +100,7 @@
 
             <div class="myskills">
                 <div class="text-normal">
-                    <h1 class="h2-normal">My Skills</h1>
+                    <h1 class="h2-normal h2-purple">My Skills</h1>
                 </div>
 
                 <div class="skills">
@@ -121,9 +122,110 @@
                     Consequatur, ea quae itaque iure totam et. Nobis aut, tempore quia, beatae explicabo ipsam. 
                 </span>
             </div>
+
+            <div class="project-notebook n1">
+                <img src="./assets/project-mockup-example.png" draggable="false" width="100%" class="notebooks">
+                <div class="projects pj1">
+                    <div class="text-normal">
+                        <h2 class="h2-normal h2-blue">Project 1</h2>
+                        <span class="span-normal sca-span-blue">Lorem ipsum, dolor sit amet consectetur 
+                            adipisicing elit. Harum nisi ipsam illo, ipsum, dolorem atque repellat at 
+                            corrupti neque nostrum odio.
+                        </span>
+                        <a href="" class="btn blue btn-hover">CASE STUDY</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-notebook n2">
+                <img src="./assets/project-mockup-example.png" draggable="false" width="100%" class="notebooks">
+                <div class="projects">
+                    <div class="text-normal">
+                        <h2 class="h2-normal h2-blue">Project 2</h2>
+                        <span class="span-normal sca-span-blue">Lorem ipsum, dolor sit amet consectetur 
+                            adipisicing elit. Harum nisi ipsam illo, ipsum, dolorem atque repellat at 
+                            corrupti neque nostrum odio.
+                        </span>
+                        <a href="" class="btn blue btn-hover">CASE STUDY</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-notebook n3">
+                <img src="./assets/project-mockup-example.png" draggable="false" width="100%" class="notebooks">
+                <div class="projects">
+                    <div class="text-normal">
+                        <h2 class="h2-normal h2-blue">Project 3</h2>
+                        <span class="span-normal sca-span-blue">Lorem ipsum, dolor sit amet consectetur 
+                            adipisicing elit. Harum nisi ipsam illo, ipsum, dolorem atque repellat at 
+                            corrupti neque nostrum odio.
+                        </span>
+                        <a href="" class="btn blue btn-hover">CASE STUDY</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-contact sa-purple">
+            <div class="section-apresentation ">
+                <h1 class="section-title st-violet">CONTACT</h1>
+                <div class="spaces sp-purple">.</div>
+                <span class="sca-span sca-span-purple">Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                    Possimus soluta ex quo ad corporis aspernatur ab alias dolores aliquam harum iusto, 
+                    dolorum tenetur cum voluptas quasi voluptatibus asperiores? Nobis, dolor!</span>
+            </div>
+
+            <form>
+                <div class="input">
+                    <label for="fname">Name</label>
+                    <span class="textarea input-name" role="textbox" contenteditable id="name"></span>
+                </div>
+
+                <div class="input">
+                    <label for="femail">Email</label>
+                    <span class="textarea input-email" role="textbox" contenteditable id="email"></span>
+                </div>
+
+                <div class="input">
+                    <label for="fmessage">Message</label>
+                    <span class="textarea input-message" role="textbox" contenteditable id="message"></span>
+                </div>
+
+                <a href="" class="btn purple btn-hover">SUBMIT</a>
+            </form>
         </section>
     </main>
 
-    <footer></footer>
+    <footer>
+        <div class="adrielcorreia">
+            <div id="adriel">
+                <h1 class="h1-footer">ADRIEL CORREIA</h1>
+                <span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. </span>
+            </div>
+    
+            <div id="social">
+                <h1 class="h1-footer">SOCIAL</h1>
+                <div class="socials-footer">
+                    <a href="https://www.linkedin.com/in/adriel-correia-a0a2331b0/" target="_blank">
+                        <img src="./assets/linkedin-ico.png" width="100%"></a>
+
+                    <a href="https://github.com/adrielcorreia/Softex_FrontEnd" target="_blank">
+                        <img src="./assets/github-ico.png" width="100%"></a>
+
+                    <a href=""><img src="./assets/twitter-ico.png" width="100%"></a>
+
+                    <a href="https://www.youtube.com/channel/UC7KtPSNQkKIkqFLS6JcKMqQ" target="_blank">
+                        <img src="./assets/yt-ico.png" width="100%"></a>
+
+                    <a href="https://www.instagram.com/correia_adriel/">
+                        <img src="./assets/insta-ico.png" width="100%"></a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="copyright">
+            <span>© Copyright 2023. Made by <strong>Adriel Correia</strong></span>
+        </div>
+    </footer>
 </body>
 </html>

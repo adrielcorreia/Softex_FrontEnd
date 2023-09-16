@@ -1,3 +1,9 @@
+.section-about {
+    display: grid;
+    grid-template-columns: 10vw 1fr 1fr 10vw;
+    grid-template-rows: 1fr 70vh;
+}
+
 .know-me-skills {
     grid-column: 2;
 }
@@ -7,17 +13,6 @@
     row-gap: 2rem;
     flex-direction: column;
     padding-left: 3rem;
-}
-
-.text-normal {
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-}
-
-.h2-normal {
-    font-size: 1.75rem;
-    color: #410041;
 }
 
 .skills {
