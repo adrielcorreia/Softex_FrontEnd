@@ -29,7 +29,7 @@ label {
     color: rgb(205,0,255);
 }
 
-.input {
+.ipt {
     display: flex;
     flex-direction: column;
     column-gap: 2rem;
@@ -44,19 +44,20 @@ label {
     color: rgb(156, 0, 195);
 }
 
-.input-name[contenteditable]:empty::before {
+.input[contenteditable]:empty::before {
+    color: rgba(227, 113, 255, 0.25)
+}
+
+.name[contenteditable]:empty::before {
     content: "Enter your name";
-    color: rgba(227, 113, 255, 0.25);
 }
 
-.input-email[contenteditable]:empty::before {
+.email[contenteditable]:empty::before {
     content: "Enter your email";
-    color: rgba(227, 113, 255, 0.25);
 }
 
-.input-message[contenteditable]:empty::before {
-    content: "Enter your message";
-    color: rgba(227, 113, 255, 0.25);
+.message[contenteditable]:empty::before {
+    content: "Enter your message"; 
 }
 
 .textarea:focus {
