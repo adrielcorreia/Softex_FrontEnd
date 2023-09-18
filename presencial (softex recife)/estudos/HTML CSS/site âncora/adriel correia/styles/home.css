@@ -4,6 +4,7 @@
     grid-template-columns: 3.5rem 1fr 3.5rem;
     grid-template-rows: 104.5vh 10vh;
     background: linear-gradient(to right, rgba(0, 0, 50, 0.95), rgba(100, 0, 100, 0.8)), url("../assets/common-bg.svg");
+    align-items: center;
 }
 
 .section-home-content {
@@ -12,17 +13,17 @@
     flex-direction: column;
     letter-spacing: 3px;
     color: #cf6eff;
-    width: 60%;
-    align-self: center;
     justify-self: center;
+    width: 60%;
     gap: 3rem;
+    position: sticky;
 }
 
-.section-home-content > h1 {
+.section-home-content h1 {
     font-size: 3.5rem;
 }
 
-.section-home-content > span {
+.section-home-content span {
     font-size: 1.2rem;
 }
 
