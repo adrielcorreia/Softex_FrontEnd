@@ -64,6 +64,15 @@
         padding: 1rem;
     }
 
+    .section-about .section-apresentation {
+        padding-bottom: 1rem;
+        border-bottom: 1px solid darkorchid;
+    }
+
+    .purple {
+        align-self: center;
+    }
+
     .section-home-content h1 {
         font-size: 3rem;
     }
@@ -83,7 +92,7 @@
 
     .section-about {
         grid-template-columns: 10vw 1fr 10vw;
-        grid-template-rows: 1fr 1.2fr 20vh 10vh;
+        grid-template-rows: 1fr 1fr 10vh 30vh 10vh;
     }
 
     .text-normal {
@@ -97,10 +106,26 @@
     }
 
     .myskills {
-        display: flex;
+        padding: 0;
         justify-content: center;
         align-items: center;
         grid-column: 2;
-        padding: 0;
+        grid-row: 4;
+    }
+
+    .section-about .h2-normal {
+        text-align: center;
+    }
+
+    .projects .text-normal {
+        width: 100%;
+    }
+
+    .projects .span-normal{
+        font-size: 0.9rem;
+    }
+
+    .projects .h2-normal {
+        font-size: 1.2rem;
     }
 }
