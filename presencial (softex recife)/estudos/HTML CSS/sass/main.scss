@@ -1,0 +1,18 @@
+$primary-color: #ddd;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: $primary-color;
+}
+
+main, header {
+    width: 100vw;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+}
