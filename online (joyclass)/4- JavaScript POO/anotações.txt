@@ -1,0 +1,10 @@
+Em 1995, Brendan Eich (1961- ) criou a linguagem de programação JavaScript. Originalmente, ela era denominada "Live Script" pela empresa Netscape. 
+
+ 
+
+Seu objetivo inicial era validar formulários HTML, porém, atualmente, JavaScript é bastante utilizada pelo client-side, ou seja, uma linguagem executada no computador do usuário.
+
+6 tipos primitivos: number, boolean, symbol, null, undefined, string
+
+variável = espaço alocado na memória (RAM), não pode armazenar mais de um valor ao mesmo tempo.
+no JS a variável não é tipada

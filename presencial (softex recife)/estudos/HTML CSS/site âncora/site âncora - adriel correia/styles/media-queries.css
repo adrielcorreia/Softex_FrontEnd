@@ -1,0 +1,131 @@
+@media only screen and (max-width: 1025px) {
+    .section-home {
+        grid-template-rows: 100vh 10vh;
+    }
+    
+    .span-normal {
+        font-size: 1rem;
+    }
+
+    .h2-normal {
+        font-size: 1.5rem;
+    }
+
+    .purple {
+        font-size: 0.8rem;
+    }
+
+    .section-apresentation {
+        padding: 5rem 0;
+    }
+
+    .lightviolet {
+        font-size: 1.1rem;
+        padding: 1.1rem;
+    }
+
+    .blue {
+        font-size: 0.75rem;
+    }
+
+    .section-home-content h1 {
+        font-size: 3rem;
+    }
+
+    .section-home-content span {
+        font-size: 1rem;
+    }
+
+    .section-home-socials {
+        width: 75%;
+        height: 1rem;
+    }
+
+    .mouse {
+        width: 2.5%;
+    }
+
+    .section-title {
+        font-size: 2.25rem;
+    }
+
+    .sca-span {
+        font-size: 1.1rem;
+    }
+
+    .individual-skill {
+        font-size: 0.9rem;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .lightviolet {
+        font-size: 1rem;
+        padding: 1rem;
+    }
+
+    .section-about .section-apresentation {
+        padding-bottom: 1rem;
+        border-bottom: 1px solid darkorchid;
+    }
+
+    .purple {
+        align-self: center;
+    }
+
+    .section-home-content h1 {
+        font-size: 3rem;
+    }
+
+    .section-home-content span {
+        font-size: 1rem;
+    }
+
+    .section-home-socials {
+        width: 75%;
+        height: 1rem;
+    }
+
+    .mouse {
+        width: 2.5%;
+    }
+
+    .section-about {
+        grid-template-columns: 10vw 1fr 10vw;
+        grid-template-rows: 1fr 1fr 10vh 30vh 10vh;
+    }
+
+    .text-normal {
+        width: 65%;
+    }
+
+    .know-me-skills {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .myskills {
+        padding: 0;
+        justify-content: center;
+        align-items: center;
+        grid-column: 2;
+        grid-row: 4;
+    }
+
+    .section-about .h2-normal {
+        text-align: center;
+    }
+
+    .projects .text-normal {
+        width: 100%;
+    }
+
+    .projects .span-normal{
+        font-size: 0.9rem;
+    }
+
+    .projects .h2-normal {
+        font-size: 1.2rem;
+    }
+}

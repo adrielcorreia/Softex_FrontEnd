@@ -5,6 +5,7 @@
     font-size: inherit;
     text-decoration: none;
     list-style: none;
+    position: sticky;
 }
 
 html {
@@ -113,45 +114,36 @@ header {
 }
 
 .btn {
-    display: flex;
-    height: 4rem;
-    align-items: center;
-    justify-content: center;
+    text-align: center;
+    margin: 0;
+    padding: 1rem 2rem;
+    width: 35%;
     letter-spacing: 0.75px;
     transition: 0.25s;
-    margin: 0 18rem;
+    border-radius: 0.5rem;
 }
 
 .lightviolet {
+    width: 25%;
     background: #cf6eff;
     color: #4e0075;
     font-weight: bolder;
     font-size: 1.2rem;
-    padding: 0 5rem;
-    border-radius: 0.5rem;
     box-shadow: 0 5px 15px 0 rgba(0,0,0,0.15);
+    align-self: center;
 }
 
 .purple {
     background: #6d1c76;
     color: #f07fff;
     font-weight: bolder;
-    padding: 0 3rem;
-    border-radius: 0.5rem;
-    width: 16%;
-    height: 3.3rem;
-    margin: 0;
+    width: 20%;
 }
 
 .blue {
     background: #1d0075;
     color: white;
     font-weight: bolder;
-    padding: 0;
-    border-radius: 0.5rem;
-    width: 45%;
-    height: 3.3rem;
-    margin: 0;
 }
 
 .btn-hover:hover { 
