@@ -8,3 +8,5 @@ Seu objetivo inicial era validar formulários HTML, porém, atualmente, JavaScri
 
 variável = espaço alocado na memória (RAM), não pode armazenar mais de um valor ao mesmo tempo.
 no JS a variável não é tipada
+
+eval()
