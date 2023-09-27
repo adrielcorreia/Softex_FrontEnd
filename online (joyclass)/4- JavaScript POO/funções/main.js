@@ -6,11 +6,11 @@ function print() {
 }
 
 function somar(n1, n2) {
-    return `${n1} + ${n2} = ${n1+n2}`
+    return `${n1} + ${n2}= ${n1+n2}`
 }
 
 expoente = (n1,n2) => {
-    return `${n1}² = ${n1**n2}`
+    return `${n1}²= ${n1**n2}`
 }
 
 console.log(print())
