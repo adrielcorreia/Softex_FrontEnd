@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <main>
+        <div class="conteiner">
+            <div class="display"></div>
+            <div class="numbers">
+                <div class="btn number" onclick=guardar(7)><h1>7</h1></div>
+                <div class="btn number" onclick=guardar(8)><h1>8</h1></div>
+                <div class="btn number" onclick=guardar(9)><h1>9</h1></div>
+
+                <div class="btn operator" onclick=dividir()><h1>÷</h1></div>
+
+                <div class="btn number" onclick=guardar(4)><h1>4</h1></div>
+                <div class="btn number" onclick=guardar(5)><h1>5</h1></div>
+                <div class="btn number" onclick=guardar(6)><h1>6</h1></div>
+
+                <div class="btn operator" onclick=multiplicar()><h1>X</h1></div>
+
+                <div class="btn number" onclick=guardar(3)><h1>3</h1></div>
+                <div class="btn number" onclick=guardar(2)><h1>2</h1></div>
+                <div class="btn number" onclick=guardar(1)><h1>1</h1></div>
+
+                <div class="btn operator" onclick=subtrair()><h1>—</h1></div>
+
+                <div class="btn number" onclick=guardar(0)><h1>0</h1></div>
+
+                <div class="btn operator"><h1>.</h1></div>
+                <div class="btn operator" onclick=resultado()><h1>=</h1></div>
+                <div class="btn operator" onclick=soma()><h1>+</h1></div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
