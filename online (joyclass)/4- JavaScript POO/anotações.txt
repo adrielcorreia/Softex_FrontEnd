@@ -10,3 +10,14 @@ variável = espaço alocado na memória (RAM), não pode armazenar mais de um va
 no JS a variável não é tipada
 
 eval()
+
+----------------
+Sequelize: Ele é uma biblioteca de Object-Relational Mapping 
+(Mapeamento objeto-relacional, em tradução livre), ou ORM, para 
+Node.js. As suas interações acontecem com bancos de dados relacionais, 
+como MySQL, PostgreSQL, SQLite e outros. 
+
+O Sequelize atua como uma camada de abstração entre o código 
+JavaScript e o banco de dados. Assim, os desenvolvedores podem interagir 
+com o banco de dados, usando objetos e métodos familiares em vez de 
+escrever consultas SQL manualmente.

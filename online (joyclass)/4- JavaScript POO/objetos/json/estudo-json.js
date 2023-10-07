@@ -10,4 +10,16 @@ class Banco {
 const elon_musk = new Banco('nubank', 50, 'corrente', '00001')
 
 const JSONData = JSON.stringify(elon_musk);
-console.log(JSONData)
+
+const list = [
+    {
+        word: "guepardo",
+        hint: "o felino mais rápido do mundo"
+    },
+    {
+        word: "crocodilo",
+        hint: "réptil aquático"
+    }
+]
+
+const JSONList = JSON.stringify(list)
