@@ -1,0 +1,1 @@
+import { newUser, newTask } from './functions'
