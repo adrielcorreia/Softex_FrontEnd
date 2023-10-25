@@ -1,0 +1,10 @@
+.distros {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    background: white;
+}
+
+.distro {
+    width: 10rem;
+    aspect-ratio: 1;
+}
