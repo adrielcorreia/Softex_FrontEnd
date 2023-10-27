@@ -48,4 +48,4 @@ newTask({
 })
 
 listTasks()
-completeTask('task1')
+completeTask(1)

@@ -1,5 +1,5 @@
 export interface User {
-    id?: string,
+    id?: number,
     informations: {
         name: string,
         email: string  
@@ -7,7 +7,7 @@ export interface User {
 }
 
 export interface Task {
-    readonly id?: string,
+    readonly id?: number,
     title: string,
     description: string,
     isDone: boolean,
@@ -18,14 +18,14 @@ export interface Task {
 export const uniqueUserId = (id => {
     return () => {
         id++
-        return `user${id}`
+        return id
     }
 })(0)
 
 export const uniqueTaskId = (id => {
     return () => {
         id++
-        return `task${id}`
+        return id
     }
 })(0)
 

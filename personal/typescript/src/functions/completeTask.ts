@@ -1,6 +1,6 @@
 import { Task, arrayTasks } from "../interfaces";
 
-export function completeTask(id:string) {
+export function completeTask(id:number) {
     const task = (element:Task) => element.id == id
     const index:number = arrayTasks.findIndex(task)
     const taskFinded = arrayTasks[index]
