@@ -2,18 +2,16 @@
   background-color: transparent;
   padding: 1rem 2rem;
   border-radius: 1rem;
-  border: solid 1px var(--btn-border);
-  border-right: solid 3px var(--btn-border);
-  border-bottom: solid 3px var(--btn-border);
+  border: solid 2px var(--btn-border);
   font-size: 1.5rem;
   transition: background .5s;
 }
 
 .btn:hover {
+  background-color: rgb(20, 20, 20);
   cursor: pointer;
 }
 
 .btn:active {
-  border-right: solid 1px var(--btn-border);
-  border-bottom: solid 1px var(--btn-border);
+  content: 'clicado';
 }

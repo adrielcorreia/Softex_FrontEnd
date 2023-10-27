@@ -1,10 +1,28 @@
 .distros {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    background: white;
+    column-gap: 1rem;
+    background: rgba(255, 255, 255, 0);
 }
 
 .distro {
     width: 10rem;
-    aspect-ratio: 1;
+    padding: 1rem;
+    aspect-ratio: 1;    
+}
+
+.distros-h2 {
+    color: rgb(230, 230, 230);
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.div-distro {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5rem;
+}
+
+li {
+    border: var(--global-border);
 }

@@ -3,7 +3,8 @@
   --btn-hover: rgb(25, 25, 25);
   --btn-active: rgb(35, 35, 35);
   --bg-color: black;
-  --border-bottom: rgba(165, 165, 165, .5)
+  --border-bottom: rgba(165, 165, 165, .5);
+  --global-border: solid 2px var(--btn-border);
 }
 
 * {
@@ -23,26 +24,31 @@ header {
   padding: 1.5rem;
   font-size: 1rem;
   position: fixed;
-  font-family: var(--font-mono);
   color: #e3e3e3;
   background-color: black;
   border-bottom: 1px solid var(--border-bottom);
 }
 
 .section {
-  padding: 5rem;
+  padding: 3rem 5rem;
+}
+
+.section-h1 {
+  text-align: center;
+  font-size: 2rem;
 }
 
 .homeSquare {
-  width: 100vw;
-  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  width: 100vw;
+  height: 100vh;
   gap: 2rem;
   background: var(--bg-color);
   border-bottom: 1px solid var(--border-bottom);
+  border-style: dashed;
 }
 
 .square {
