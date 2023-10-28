@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import { SocialMedia } from './component-social'
+import { SocialMedia } from './SocialMedia'
 import '../styles/footer.css'
 
 export function Footer(props:{author: string, description: string, year: number, project: string, linkedin: string, github: string, instagram: string}) {

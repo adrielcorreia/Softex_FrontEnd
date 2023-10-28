@@ -1,5 +1,5 @@
 import '../styles/distros.css'
-import { Distro } from './component-distro'
+import { Distro } from './Distro'
 
 export function LinuxDistros() {
   return (

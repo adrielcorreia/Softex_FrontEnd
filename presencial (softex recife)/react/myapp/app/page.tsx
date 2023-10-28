@@ -1,10 +1,10 @@
 import './styles/main.css'
 
-import { SquareAndButton } from "./components/section-home";
-import { LinuxDistros } from "./components/section-distros";
+import { SquareAndButton } from "./components/SquareAndButton";
+import { LinuxDistros } from "./components/LinuxDistros";
 import { Title } from "./components/header";
-import { ImageCustomizable } from "./components/section-image";
-import { ParagraphCustomizable } from "./components/section-paragraph";
+import { ImageCustomizable } from "./components/ImageCustomizable";
+import { ParagraphCustomizable } from "./components/ParagraphCustomizable";
 import { Footer } from './components/footer';
 
 
