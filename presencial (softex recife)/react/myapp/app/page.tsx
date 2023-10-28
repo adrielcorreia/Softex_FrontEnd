@@ -1,23 +1,42 @@
-import { Button } from "./components/component-button";
-import { LinuxDistros } from "./components/component-distros";
-import { Square } from "./components/component-square";
-import { Title } from "./components/component-title";
+import './styles/main.css'
+
+import { SquareAndButton } from "./components/section-home";
+import { LinuxDistros } from "./components/section-distros";
+import { Title } from "./components/header";
+import { ImageCustomizable } from "./components/section-image";
+import { ParagraphCustomizable } from "./components/section-paragraph";
+import { Footer } from './components/footer';
+
 
 export default function Home() {
   return (
     <body>
       <header>
-        <Title />
+        <Title title="Componentes React" description="descrição personalizada"/>
       </header>
+
       <main>
-        <section className="section homeSquare">
-          <Square />
-          <Button />
-        </section>
-        <section className="section linux-distros">
-          <LinuxDistros/>
-        </section>
+        <SquareAndButton />
+
+        <LinuxDistros />
+
+        <ImageCustomizable text="Imagem personalizável" source="Fedora_logo.svg" />
+
+        <ParagraphCustomizable text="todo personalizado meu amigo" />
       </main>
+
+      <footer>
+        <Footer 
+          author='Adriel' 
+          year={2023}
+          description='Atividade do FAP - FrontEnd'
+          project='https://github.com/adrielcorreia/Softex_FrontEnd/tree/b7c930464619923d939a273c348d634947f2cc9b/presencial%20(softex%20recife)/react/myapp'
+          linkedin='https://www.linkedin.com/in/adriel-correia-a0a2331b0/'
+          github='https://github.com/adrielcorreia'
+          instagram='https://www.instagram.com/correia_adriel/'
+          />
+      </footer>
+
     </body>
   );
 }

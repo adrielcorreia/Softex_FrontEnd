@@ -1,0 +1,27 @@
+header {
+    width: 100vw;
+    font-size: 1rem;
+    position: fixed;
+    color: rgb(230, 230, 230);
+    background-color: rgba(0, 0, 0, 0.8);
+    border-bottom: 1px solid var(--border-bottom);
+    backdrop-filter: blur(15px);
+  }
+  
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    row-gap: .5rem;
+    padding: 1.5rem;
+}
+
+#title {
+    font-size: 1.5rem;
+}
+
+#description {
+    font-size: .9rem;
+}

@@ -1,0 +1,65 @@
+@keyframes infiniteRotation {
+    from {
+        transform: rotate(0deg);
+      }
+      to {
+        transform: rotate(360deg);
+      }
+}
+
+footer {
+    font-size: .9rem;
+    color: white;
+    background: black;
+}
+
+footer div {
+    padding: 2rem 4rem;
+}
+
+footer ul {
+    display: grid;
+    align-items: center;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+footer #infos {
+    display: flex;
+    flex-direction: column;
+    row-gap: .2rem;
+}
+
+footer strong {
+    color: white;
+    font-weight: 100;
+}
+
+footer #tech {
+    color: #888;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+
+#react {
+    animation: infiniteRotation infinite 10s linear;
+}
+
+footer #about-me {
+    display: grid;
+    grid-template-rows: 50px 50px;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: .3rem;
+    place-items: center;
+    justify-self: self-end;
+}
+
+footer #about-me p {
+    font-weight: 500;
+    font-size: 1.25rem;
+    text-align: center;
+    grid-column: 1/4;
+}

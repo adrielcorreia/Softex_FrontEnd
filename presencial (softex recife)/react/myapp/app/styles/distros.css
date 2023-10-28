@@ -6,9 +6,21 @@
 }
 
 .distro {
-    width: 10rem;
-    padding: 1rem;
-    aspect-ratio: 1;    
+    padding: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(25, 25, 25);
+    border-radius: 1rem;
+    transition: .5s;
+    width: 100%;
+    aspect-ratio: 1;
+    cursor: pointer;
+}
+
+.distro:hover {
+    border-color: rgb(35, 35, 35);
+    background: rgb(10, 10, 10);
 }
 
 .distros-h2 {
@@ -17,12 +29,10 @@
     text-align: center;
 }
 
-.div-distro {
+.distros li {
     display: flex;
     flex-direction: column;
-    row-gap: 5rem;
-}
-
-li {
-    border: var(--global-border);
+    justify-content: center;
+    align-items: center;
+    row-gap: 1rem;
 }
