@@ -7,7 +7,6 @@ import { ImageCustomizable } from "./components/ImageCustomizable";
 import { ParagraphCustomizable } from "./components/ParagraphCustomizable";
 import { Footer } from './components/footer';
 
-
 export default function Home() {
   return (
     <body>
