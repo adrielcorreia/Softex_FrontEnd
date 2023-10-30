@@ -16,11 +16,8 @@ export default function Home() {
 
       <main>
         <SquareAndButton />
-
         <LinuxDistros />
-
         <ImageCustomizable text="Imagem personalizável" source="Fedora_logo.svg" />
-
         <ParagraphCustomizable text="todo personalizado meu amigo" />
       </main>
 
