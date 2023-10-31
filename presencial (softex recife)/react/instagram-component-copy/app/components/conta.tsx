@@ -5,21 +5,29 @@ interface Conta {
     img:string,
     name:string,
     time:string,
-    size:number
 }
 
 export function Conta(props:Conta) {
     return (
-        <div className='conta'>
-            <Image className='pfp' 
-                src={props.img} 
-                alt="imagem da conta" 
-                width={props.size} 
-                height={props.size} 
-                draggable={false}/>
+        <div className='conta-container'>
+            <div className='conta'>
+                <div className='usuario'>
+                    <Image className='pfp' 
+                        src={props.img} 
+                        alt="imagem da conta" 
+                        width={35} 
+                        height={35} 
+                        draggable={false}/>
+                    <h3 className='nome-da-conta'>{props.name}</h3>
+                </div>
 
-            <h3 className='nome-da-conta'>{props.name}</h3>
-            <h3 className='tempo-do-post'>{props.time}</h3>
+                <span className="ponto"></span>
+                <h3 className='tempo-do-post'>{props.time}</h3>
+            </div>
+
+            <div className='tres-pontinhos'>
+                <div className='ponto'></div>
+            </div>
         </div>
     )
 }

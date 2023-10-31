@@ -1,5 +1,9 @@
 .conteudo {
-    border: 1px solid gray;
+    border: 1px solid rgb(50, 50, 50);
+    border-radius: .3rem;
     margin: 0;
+    padding: 0;
+    display: flex;
+    min-height: 400px;
+    max-height: 550px;
 }
-
