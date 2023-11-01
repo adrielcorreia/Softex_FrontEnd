@@ -2,27 +2,27 @@ import Image from 'next/image'
 import '../styles/conta.css'
 
 interface Conta {
-    img:string,
-    name:string,
-    time:string,
+    avatar: string,
+    user: string,
+    time: string
 }
 
-export function Conta(props:Conta) {
+export function Conta(props: Conta) {
+    const avatar = props.avatar
+    const user = props.user
+    const time = props.time
+
     return (
         <div className='conta-container'>
             <div className='conta'>
+
                 <div className='usuario'>
-                    <Image className='pfp' 
-                        src={props.img} 
-                        alt="imagem da conta" 
-                        width={35} 
-                        height={35} 
-                        draggable={false}/>
-                    <h3 className='nome-da-conta'>{props.name}</h3>
+                    <Image className='profile' src={avatar} alt="user profile" width={35} height={35} draggable={false}/>
+
+                    <h3 className='nome-da-conta'>{user}</h3>
                 </div>
 
-                <span className="ponto"></span>
-                <h3 className='tempo-do-post'>{props.time}</h3>
+                <h3 className='tempo-do-post'>{time}</h3>
             </div>
 
             <div className='tres-pontinhos'>

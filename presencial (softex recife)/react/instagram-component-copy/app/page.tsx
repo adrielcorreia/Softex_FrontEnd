@@ -1,15 +1,18 @@
-import styles from './styles/page.module.css'
+import './page.module.css'
 import './styles/main.css'
-import { Conta } from './components/conta'
-import { Conteudo } from './components/conteudo'
+import { Postagem } from './components/postagem'
+
+const post1:string[] = [
+  '/conteudo.png', 
+  '/forest.jpg',
+  '/ocean.jpg',
+  '/universe.jpg'
+]
 
 export default function Home() {
   return (
     <main>
-      <div className='componente-instagram'>
-        <Conta img='/avatar.jpg' name='conta_aleatoria' time='5d' />
-        <Conteudo img='/conteudo.png'/>
-      </div>
+      <Postagem avatar='/avatar.jpg' time='5d' user='adrielcorreia' content='/ocean.jpg'></Postagem>
     </main>
   )
 }

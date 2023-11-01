@@ -1,0 +1,26 @@
+.btns {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 15rem;
+}
+
+.lcs {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1.25rem;
+}
+
+.btn {
+    font-size: 1.65rem;
+    cursor: pointer;
+}
+
+.btn:hover {
+    color: gray;
+}
+
+i {
+    min-width: 27px;
+}

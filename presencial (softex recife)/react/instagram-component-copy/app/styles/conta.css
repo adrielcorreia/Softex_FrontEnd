@@ -17,7 +17,7 @@
     gap: 1rem;
 }
 
-.pfp {
+.profile {
     border-radius: 100%;
     cursor: pointer;
 }
@@ -34,16 +34,6 @@
     color: gray;
 }
 
-/* .tempo-do-post::before {
-    content: '';
-    position: absolute;
-    width: 4px;
-    height: 4px;
-    background: gray;
-    transform: translateX(-450%);
-    border-radius: 100%;
-} */
-
 .tres-pontinhos {
     width: 32px;
     height: 32px;
@@ -59,8 +49,13 @@
     background: gray;
 }
 
-.conta .ponto {
+.tempo-do-post::before {
+    content: '';
+    width: 4px;
+    height: 4px;
+    border-radius: 100%;
     background: gray;
+    transform: translateX(-75%);
 }
 
 .ponto {

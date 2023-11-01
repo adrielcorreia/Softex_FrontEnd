@@ -1,3 +1,5 @@
+'use client'
+
 import '../styles/conteudo.css'
 import Image from 'next/image'
 
@@ -9,7 +11,7 @@ const style = {
 
 export function Conteudo(props:{img: string}) {
     return (
-        <div className='conteudo'>
+        <li className='conteudo'>
             <Image className='conteudo-img'
             src={props.img} 
             quality={100} 
@@ -18,6 +20,6 @@ export function Conteudo(props:{img: string}) {
             alt="conteudo" 
             style={style}
             draggable={false}/>
-        </div>
+        </li>
     )
 }
