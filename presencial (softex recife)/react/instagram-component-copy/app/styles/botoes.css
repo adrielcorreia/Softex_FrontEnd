@@ -13,7 +13,7 @@
 }
 
 .btn {
-    font-size: 1.65rem;
+    min-width: 27px;
     cursor: pointer;
 }
 
@@ -21,6 +21,6 @@
     color: gray;
 }
 
-i {
-    min-width: 27px;
+.fa-heart {
+    animation: Beat infinite ease-in;
 }

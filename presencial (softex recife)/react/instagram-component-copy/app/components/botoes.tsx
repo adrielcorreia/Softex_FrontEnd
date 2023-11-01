@@ -1,19 +1,22 @@
 'use client'
 
 import '../styles/botoes.css'
-import Script from 'next/script' 
 import { useState } from 'react'
+import { useRef } from 'react'
+import Script from 'next/script' 
 
 export function Buttons() {
-    const [likeState, setStateL] = useState('regular')
-    const [bookmarkState, setStateB] = useState('regular')
+    const [like, setLike] = useState('regular')
+    const [bookmark, setSave] = useState('regular')
+    const likeColor = useRef('white')
 
-    function LikeClick() {
-        setStateL(likeState == 'regular' ? 'solid' : 'regular')
+    function Like() {
+        setLike(like == 'regular' ? 'solid' : 'regular')
+        likeColor.current = (like == 'regular' ? 'red' : 'white')
     }
 
-    function BookmarkClick() {
-        setStateB(bookmarkState == 'regular' ? 'solid' : 'regular')
+    function Save() {
+        setSave(bookmark == 'regular' ? 'solid' : 'regular')
     }
 
     return (
@@ -22,22 +25,22 @@ export function Buttons() {
 
             <div className='lcs'> {/*like, comment, share*/}
             
-                <button onClick={LikeClick} onLoad={LikeClick}>
-                    <i className={`btn fa-${likeState} fa-heart dark`}></i>
+                <button onClick={Like} >
+                    <h1 style={{color: `${likeColor.current}`}} className={`btn fa-${like} fa-heart dark`}></h1>
                 </button>
 
-                <button className={`btn fa-regular fa-comment dark`}></button>
+                <button>
+                    <h1 className={`btn fa-regular fa-comment dark`}></h1>
+                </button>
 
-                <button className={`btn fa-regular fa-paper-plane dark`}></button>
+                <button>
+                    <h1 className={`btn fa-regular fa-paper-plane dark`}></h1>
+                </button>
             </div>
             
-            <button onClick={BookmarkClick}>
-                <i className={`btn fa-${bookmarkState} fa-bookmark dark`}></i>
+            <button onClick={Save}>
+                <h1 className={`btn fa-${bookmark} fa-bookmark dark`}></h1>
             </button>
         </div>
     )
 }
-
-// export function Save() {
-
-// }

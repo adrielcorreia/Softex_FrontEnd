@@ -1,15 +1,23 @@
 main {
+    padding: 3rem;
+    width: 100vw;
+    height: fit-content;
+    font-size: .8rem;
+}
+
+.posts {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100vw;
-    height: 100vh;
-    font-size: .8rem;
+    flex-direction: column;
 }
 
 .post {
     width: 400px;
     display: flex;
     flex-direction: column;
-    gap: 1rem;
+    gap: .8rem;
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid rgb(35, 35, 35);
 }
