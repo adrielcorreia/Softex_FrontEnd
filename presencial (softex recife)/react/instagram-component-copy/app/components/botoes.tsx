@@ -21,12 +21,11 @@ export function Buttons() {
 
     return (
         <div className='btns'>
-            <Script src="https://kit.fontawesome.com/4e2d75bd38.js" />
-
             <div className='lcs'> {/*like, comment, share*/}
-            
+                
                 <button onClick={Like} >
-                    <h1 style={{color: `${likeColor.current}`}} className={`btn fa-${like} fa-heart dark`}></h1>
+                    <h1 className={`btn fa-${like} fa-heart dark`}
+                        style={{color: `${likeColor.current}`}}/>
                 </button>
 
                 <button>

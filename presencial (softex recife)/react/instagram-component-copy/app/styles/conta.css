@@ -4,9 +4,14 @@
     align-items: center;
 }
 
+.nome-e-tempo {
+    display: flex;
+    gap: .8rem;
+}
+
 .conta {
     display: grid;
-    grid-template-columns: .25fr 1fr .25fr;
+    grid-template-columns: .25fr 1fr;
     grid-template-rows: 1fr;
     align-items: center;
     column-gap: .8rem;

@@ -12,14 +12,10 @@ interface Conta {
 }
 
 export function Conta(props: Conta) {
-    const avatar = props.avatar
-    const user = props.user
-    const time = props.time
-    const local = props.local
-    const html = <h3 className='local'>{local}</h3>
+    const html = <h3 className='local'>{props.local}</h3>
 
     const localHTML = useRef(<></>)
-    localHTML.current = (local ? html : <></>)
+    localHTML.current = (props.local ? html : <></>)
 
     return (
         <div className='conta-container'>
@@ -27,17 +23,18 @@ export function Conta(props: Conta) {
 
                 <Image 
                     className='profile' 
-                    src={avatar} 
+                    src={props.avatar} 
                     alt="user profile" 
                     width={35} 
                     height={35} 
                     draggable={false}/>
 
-                <h3 className='nome-da-conta'>{user}</h3>
-
+                <div className='nome-e-tempo'>
+                    <h3 className='nome-da-conta'>{props.user}</h3>
+                    <h3 className='tempo-do-post' >{props.time}</h3>
+                </div>
+                
                 {localHTML.current}
-
-                <h3 className='tempo-do-post' >{time}</h3>
             </div>
 
             <div className='tres-pontinhos'>

@@ -1,23 +1,27 @@
+'use client'
+
 import { Conta } from './conta'
 import { Conteudo } from './conteudo'
 import { Buttons } from './botoes' 
+import { useRef } from 'react'
  
-export interface Post {
+interface Post {
     avatar: string,
     user: string,
     time: string,
-    content: string
+    content: any[],
     local?: string
 }
 
 export function Postagem(props: Post) {
+
     return (
-    <div className='post'>
-        <Conta {...props} />
-        <ul>
-            <Conteudo img={props.content} />
-        </ul>
-        <Buttons />
-    </div>
+        <div className='post'>
+            <Conta {...props}/>
+            <ul>
+                {props.content}
+            </ul>
+            <Buttons/>
+        </div>
     )
 }

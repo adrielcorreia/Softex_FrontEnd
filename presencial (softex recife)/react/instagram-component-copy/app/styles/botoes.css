@@ -1,8 +1,21 @@
+@keyframes popup {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.25);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
 .btns {
     display: flex;
     justify-content: space-around;
     align-items: center;
     gap: 15rem;
+    margin-top: .35rem;
 }
 
 .lcs {
@@ -22,5 +35,5 @@
 }
 
 .fa-heart {
-    animation: Beat infinite ease-in;
+    animation: popup .5s ease-in-out 0 infinite;
 }

@@ -1,6 +1,7 @@
 import './page.module.css'
 import './styles/main.css'
 import { Postagem } from './components/postagem'
+import { Conteudo } from './components/conteudo'
 
 const post1:string[] = [
   '/conteudo.png', 
@@ -17,7 +18,7 @@ export default function Home() {
           avatar='/avatar.jpg' 
           time='5d' 
           user='adrielcorreia' 
-          content='/ocean.jpg'
+          content={[<Conteudo src='/ocean.jpg'/>, <Conteudo src='/forest.jpg'/>]}
           local='Maldivas'
           />
 
@@ -25,7 +26,7 @@ export default function Home() {
           avatar='/avatar.jpg' 
           time='3h' 
           user='bruna' 
-          content='/forest.jpg'
+          content={[<Conteudo src='/universe.jpg'/>]}
           local='Não interessa'/>
       </div>
     </main>
