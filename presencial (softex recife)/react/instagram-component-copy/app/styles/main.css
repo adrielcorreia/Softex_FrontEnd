@@ -21,3 +21,17 @@ main {
     margin-bottom: 2rem;
     border-bottom: 1px solid rgb(35, 35, 35);
 }
+
+.conteudo {
+    border: 1.5px solid rgb(50, 50, 50);
+    border-radius: .3rem;
+    margin: 0;
+    padding: 0;
+    min-width: 400px;
+    min-height: 400px;
+    max-height: 550px;
+}
+
+.carousel .carousel-status {
+    font-size: 1rem;
+}

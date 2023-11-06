@@ -3,16 +3,17 @@
 import '../styles/botoes.css'
 import { useState } from 'react'
 import { useRef } from 'react'
-import Script from 'next/script' 
 
 export function Buttons() {
     const [like, setLike] = useState('regular')
     const [bookmark, setSave] = useState('regular')
     const likeColor = useRef('white')
+    const likeClicked = useRef('')
 
     function Like() {
         setLike(like == 'regular' ? 'solid' : 'regular')
         likeColor.current = (like == 'regular' ? 'red' : 'white')
+        likeClicked.current = (like == 'regular' ? 'popup' : 'none')
     }
 
     function Save() {
@@ -25,7 +26,10 @@ export function Buttons() {
                 
                 <button onClick={Like} >
                     <h1 className={`btn fa-${like} fa-heart dark`}
-                        style={{color: `${likeColor.current}`}}/>
+                        style={{
+                            color: `${likeColor.current}`,
+                            animationName: `${likeClicked.current}`
+                            }}/>
                 </button>
 
                 <button>
