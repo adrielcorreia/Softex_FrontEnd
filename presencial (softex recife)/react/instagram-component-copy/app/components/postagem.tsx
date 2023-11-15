@@ -1,6 +1,6 @@
 'use client'
 
-import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 import '../styles/main.css'
 import { Conta } from './conta'
 import { Buttons } from './botoes'
